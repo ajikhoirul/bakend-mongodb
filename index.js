@@ -20,4 +20,4 @@ app.use(cors());
 app.use(express.json());
 app.use(UserRoute);
 
-app.listen(8000, () => console.log("server up and running!!!"));
+app.listen(8000, () => console.log("server up and running!"));
